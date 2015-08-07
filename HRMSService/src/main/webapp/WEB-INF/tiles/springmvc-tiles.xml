@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<tiles-definitions>
+			<definition name=".emptytemplate" template="/WEB-INF/jsp/tiles/Template.jsp">
+   		    </definition>
+			
+			<!-- <definition name="/employee.tiles" extends=".emptytemplate">
+       			<put-attribute name="title" value="Person Listing"/>
+       			 <put-attribute name="menu" value="Menu_BY_Tiles" />
+       			<put-attribute name="content" value="/WEB-INF/jsp/employee.jsp"/>
+    			<put-attribute name="footer" value="TEST_TILES_Footer "/>
+    		</definition>
+    		 -->
+    		 <definition name="/index.tiles" extends=".emptytemplate">
+       			<put-attribute name="title" value="Person Listing"/>
+       			 <put-attribute name="menu" value="TILES_Menu" />
+       			<put-attribute name="content" value="/WEB-INF/jsp/index.jsp"/>
+    			<put-attribute name="footer" value="TILES_Footer "/>
+    		</definition>
+    		 
+	</tiles-definitions>
